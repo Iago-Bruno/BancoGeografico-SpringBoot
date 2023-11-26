@@ -23,7 +23,7 @@ public class Municipio implements Serializable {
     @Column(name = "sigla_uf")
     private String sigla;
     @Column(name = "area_km2")
-    private double areaKm2;    
+    private double areaKm2;
     @Column(name = "geom")
     private Geometry geometria;
 
